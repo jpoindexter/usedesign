@@ -11,7 +11,7 @@ You have ~85 design skills spread across five families (cross-cutting, `dec-*`, 
   → Skills matched (3): ios-charts-and-data-visualization, ios-accessibility, data-visualization
 ```
 
-It's a **router skill**, not a new design system. It carries a generated catalog of your design skills + a routing table (task signal → which skills), and defers to your existing family dispatchers (`/ios`, `/design`, `/dec`, `/userflow`, `/wireframe`) when a task sits entirely in one family. Use `/usedesign` when the task **spans families**.
+It's a **router skill**, not a new design system. It carries a generated catalog of your design skills + a routing table (task signal → which skills), and defers to your existing family dispatchers (`/ios`, `/design`, `/dec`, `/userflow`, `/wireframe`) when a task sits entirely in one family. When customer, outcome, evidence, metrics, or AI fit are unresolved, it invokes [`/pm`](https://github.com/jpoindexter/product-management-skills) before the design cluster. Use `/usedesign` when the task **spans families**.
 
 ## Install
 

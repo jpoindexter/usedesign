@@ -23,6 +23,7 @@ One entry point over every installed design skill. Read the task, narrow ~85 des
 |---|---|
 | Native iOS / SwiftUI / iPhone screen | `ios26-hig-patterns` + the specific `ios-*` (typography, color-and-materials, components, layout-and-grid) |
 | Web / cross-platform screen or component | `layout-and-composition`, `components-and-states`, `color-and-elevation`, `grid-and-spacing` |
+| Product definition is unresolved (customer, outcome, evidence, metrics, AI fit) | `pm` first, then the matching design skills |
 | Design system / tokens | `design-tokens`, `dec-design-system-depth`, `color-and-elevation`, `components-and-states` |
 | Charts / dashboard / data graphic | `data-visualization`, `tufte` (+ `ios-charts-and-data-visualization` on iOS) |
 | Motion / animation / transition | `interaction-and-motion`, `app-motion-and-animation`, `dec-motion-animation` (+ `ios-motion-and-animation`) |
@@ -37,6 +38,8 @@ One entry point over every installed design skill. Read the task, narrow ~85 des
 | Nutrition / food / macro app | `macro-food-app-ui`, `dense-no-scroll-layout` |
 
 Multiple signals → pick across families, still cap at 5, most-load-bearing first.
+
+Keep the boundary explicit: `pm` owns what to build, for whom, why, how success is measured, and whether AI is appropriate. Design skills own how that decision becomes an interface. Count `pm` inside the five-skill cap when both are required.
 
 ## Defer to a family dispatcher
 
