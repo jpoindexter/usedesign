@@ -1,6 +1,6 @@
 ---
 name: usedesign
-description: "Use when the user invokes /usedesign, or hands over any design/UI task (screen, component, layout, color, type, motion, flow, chart, wireframe, audit, polish, copy) and it's unclear which design skills to load — a router over ALL installed design skills (cross-cutting, dec-*, ios-*, flow-*, wireframe-*) that reads the task and picks the best 2-5 to apply."
+description: "Use when the user invokes /usedesign, or hands over any design/UI task (screen, component, layout, color, type, motion, flow, chart, wireframe, audit, polish, copy, case study) and it's unclear which design skills to load — a router over ALL installed design skills that reads the task and picks the best 2-5 to apply."
 ---
 
 # usedesign — design skill router
@@ -32,6 +32,7 @@ One entry point over every installed design skill. Read the task, narrow ~85 des
 | A flow (onboarding, auth, checkout, settings, search, paywall, permissions, errors, tables…) | the matching `flow-*` — or defer to `/userflow` |
 | Wireframe / sketch / block out a screen | the matching `wireframe-*` — or defer to `/wireframe` |
 | Audit / critique / "is this good" / heuristic eval | `usability-heuristics`, `dec-nielsen-heuristics`, `visual-qa`, `accessibility-audit`, `anti-slop-design-law`, `ethical-design-and-dark-patterns` |
+| Case study / portfolio / project narrative | defer to `case-study`; for AI agents it routes `ai-agent-case-study` plus evidence, decision, and writing skills |
 | "Make it feel better" / polish / "feels off" | `make-interfaces-feel-better`, `polish` |
 | Cognitive load / UX laws / clarity | `dec-cognitive-load`, `dec-ux-laws`, `laws-of-ux-and-psychology`, `dec-krug-laws` |
 | Landing / marketing page | `hallmark`, `anti-slop-design-law` |
@@ -45,7 +46,7 @@ Keep the boundary explicit: `pm` owns what to build, for whom, why, how success 
 
 If the whole task sits inside one family, hand off instead of hand-picking — the family dispatcher already routes within its set:
 
-- Native iOS → `/ios` · Web/cross-platform → `/design` · Design-eng principles → `/dec` · UX flow → `/userflow` · Wireframing → `/wireframe`
+- Native iOS → `/ios` · Web/cross-platform → `/design` · Design case study → `/case-study` · Design-eng principles → `/dec` · UX flow → `/userflow` · Wireframing → `/wireframe`
 
 Use `/usedesign` when the task **spans families** (e.g. "audit this iOS chart screen for accessibility" → `ios-charts-and-data-visualization` + `ios-accessibility` + `data-visualization`).
 

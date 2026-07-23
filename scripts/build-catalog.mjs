@@ -29,6 +29,8 @@ const FAMILY_PREFIXES = [
 const CROSS_CUTTING = new Set([
   'accessibility-and-inclusive-design', 'accessibility-audit', 'anti-slop-design-law',
   'app-motion-and-animation', 'color-and-elevation', 'components-and-states', 'data-visualization',
+  'ai-agent-case-study', 'case-study', 'case-study-design-decisions', 'case-study-story-map',
+  'case-study-storytelling', 'case-study-writing',
   'design', 'design-tokens', 'dense-no-scroll-layout', 'ethical-design-and-dark-patterns',
   'grid-and-spacing', 'hallmark', 'iconography-and-imagery', 'inclusive-design',
   'interaction-and-motion', 'laws-of-ux-and-psychology', 'layout-and-composition',

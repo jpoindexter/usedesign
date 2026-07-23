@@ -10,6 +10,11 @@
     "description": "Audit web app for WCAG 2.1 accessibility issues and provide fixes."
   },
   {
+    "name": "ai-agent-case-study",
+    "family": "Cross-cutting",
+    "description": "Structure and write design case studies for AI agents, copilots, autonomous workflows, multi-agent systems, and other probabilistic products. Use when a case study must explain autonomy levels, permissions, approval thresholds, steering, observability, user-visible rationale, uncertainty, trust calibration, streaming, latency, orchestration, failures, retries, rollback, state recovery, evals, or human-in-the-loop design."
+  },
+  {
     "name": "anti-slop-design-law",
     "family": "Cross-cutting",
     "description": "Apply the pols.dev anti-slop design law before designing, reviewing, or building any interface, landing page, dashboard, app shell, visual system, marketing page, or UI component. Use when the work involves visual design, frontend UI, UX polish, branding, screenshots, mockups, or design critique."
@@ -18,6 +23,31 @@
     "name": "app-motion-and-animation",
     "family": "Cross-cutting",
     "description": "Platform-agnostic motion principles for any app — the six purposes of motion and when NOT to animate, the perception thresholds (~100ms instant, 230ms perceive, 80ms floor / 500ms ceiling), duration scales and named easing curves (standard/decelerate-entrance/accelerate-exit), spring physics and the modern duration+bounce model, choreography (stagger, shared-element, asymmetric enter/exit, anticipation/follow-through), 60/120fps performance rules, and reduced-motion/vestibular accessibility, with a compact duration-by-interaction reference. Use when deciding whether an interaction deserves motion, picking a duration/curve, choreographing a transition, or auditing animation for jank or accessibility."
+  },
+  {
+    "name": "case-study",
+    "family": "Cross-cutting",
+    "description": "Route and produce evidence-backed product or design case studies from raw notes, research, screenshots, specifications, decision logs, metrics, and project artifacts. Use when the user invokes /case-study, asks to write or structure a portfolio case study, needs to explain a complex design project, wants a project narrative or presentation, or needs an AI-agent case study that covers autonomy, human oversight, telemetry, trust, failures, and recovery."
+  },
+  {
+    "name": "case-study-design-decisions",
+    "family": "Cross-cutting",
+    "description": "Explain and defend pivotal design decisions in a case study using stakeholder context, user and business evidence, alternatives, constraints, trade-offs, consequences, limitations, and follow-up. Use when a portfolio draft shows screens without rationale, lists activities instead of decisions, needs executive credibility, must explain rejected options, or must communicate complex enterprise, platform, system, or AI-agent design choices."
+  },
+  {
+    "name": "case-study-story-map",
+    "family": "Cross-cutting",
+    "description": "Map project evidence into a user-centered outcome arc for a product or design case study. Use when raw notes are chronological, the story lacks tension or a clear result, the product or designer has become the hero instead of the user, a journey needs a beginning-middle-end structure, or research and analytics must be connected to goals, conflicts, pivotal decisions, and measurable outcomes."
+  },
+  {
+    "name": "case-study-storytelling",
+    "family": "Cross-cutting",
+    "description": "Build a coherent narrative system for complex design case studies using characters, context, plot, subplots, turning points, branching journeys, theme, scenes, and a trust or emotional arc. Use for multichannel products, nonlinear flows, service ecosystems, AI-agent experiences, portfolio presentations, or drafts that contain good evidence but read like disconnected screens and activities."
+  },
+  {
+    "name": "case-study-writing",
+    "family": "Cross-cutting",
+    "description": "Draft, edit, and finish concise design case-study copy from an evidence ledger or structured outline. Use when a portfolio case study is verbose, vague, generic, overly chronological, full of UX process theater, missing scannable headings and captions, inconsistent in voice, or needs publication-ready structure without inventing research, metrics, outcomes, or quotes."
   },
   {
     "name": "color-and-elevation",
@@ -42,7 +72,7 @@
   {
     "name": "design",
     "family": "Cross-cutting",
-    "description": "Use when the user invokes /design, or asks to design/build/audit/polish any web or cross-platform UI — screen, component, layout, table, chart, form, color system — and it's unclear which design reference skills apply. Dispatcher that routes to the right 2-4 companion skills (components-and-states, layout-and-composition, color-and-elevation, data-visualization, ...) instead of loading the whole family. Native iOS work routes to /ios instead."
+    "description": "Use when the user invokes /design, or asks to design/build/audit/polish a web or cross-platform UI or create a design case study — screen, component, layout, table, chart, form, color system, portfolio narrative — and it's unclear which design reference skills apply. Dispatcher that routes to the right companion skills, delegates product decisions to /pm, case studies to /case-study, and native iOS work to /ios."
   },
   {
     "name": "design-tokens",
